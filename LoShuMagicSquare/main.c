@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "magicSquare.h"
 #include "randomizeSquare.h"
+#include <time.h>
+#include <stdlib.h>
 
 int main(){
     // Working Lo Shu Magic Square
