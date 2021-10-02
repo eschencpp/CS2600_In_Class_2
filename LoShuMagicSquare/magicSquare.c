@@ -75,7 +75,7 @@ int checkDiagonal2(int magicSquare[3][3]){
     return 0;
 }
 
-int checkAll(int magicSquare[3][3]){
+void checkAll(int magicSquare[3][3]){
     int statusRows = checkRows(magicSquare);
     int statusColumns = checkColumns(magicSquare);
     int statusDiagonal = checkDiagonal(magicSquare);
